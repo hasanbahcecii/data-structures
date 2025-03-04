@@ -1,0 +1,2 @@
+# BinarySearch
+ A sorting algorithm
