@@ -1,2 +1,3 @@
-# BinarySearch
- A sorting algorithm
+# Data Strucures
+
+Binary Searh: A sorting algorithm
