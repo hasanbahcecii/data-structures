@@ -52,7 +52,7 @@ public class Musteri {
 
     public String yazdir()
     {
-        return "Musteri: " + ad + " " + soyad + "Yaş: " + yas + "Hesap: " + hesap;
+        return "Müşteri: " + ad + " " + soyad + " Yaş: " + yas + "\n" + "Hesap Bilgisi: " + hesap.yazdir();
     }
 
 

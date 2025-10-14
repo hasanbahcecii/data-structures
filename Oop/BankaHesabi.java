@@ -14,16 +14,27 @@ public class BankaHesabi {
 
     public void paraYatir(double tutar)
     {
-        bakiye = bakiye + tutar;
+        if(tutar >= 0)
+        {
+            bakiye += tutar;
+            System.out.println(tutar + " para yatırıldı. Yeni bakiye: " + bakiye);            
+        }
+        else
+        System.out.println("Tutar pozitif olmalıdır.");
     }
 
 
         public void paraCek(double tutar)
     {
-        if(tutar > bakiye)
-        System.out.println("Bakiyeniz yetersiz!");
+        if(tutar >= 0 && bakiye >= tutar)
+        {
+        bakiye -= tutar;
+        System.out.println(tutar + " kadar para çekildi. Kalan bakiye: " + bakiye);
+        }
+        else if(tutar > bakiye)
+        System.out.println("Yetersiz bakiye.");
         else
-        bakiye = bakiye - tutar;
+        System.out.println("Tutar geçerli değil.");
     }
 
     public String getIban() {
@@ -31,7 +42,11 @@ public class BankaHesabi {
     }
 
     public void setIban(String iban) {
+
+        if(bakiye >= 0)
         this.iban = iban;
+        else
+        System.out.println("Bakiye negatif olamaz!");
     }
 
     public double getBakiye() {
@@ -43,9 +58,9 @@ public class BankaHesabi {
     }
 
 
-        public String yazdir(String iban, double bakiye)
+        public String yazdir()
     {
-        return  "IBAN: " + iban + "Bakiye: " + bakiye;
+        return  "IBAN: " + iban + " Bakiye: " + bakiye + " TL";
     }
 
 
