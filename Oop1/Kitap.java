@@ -14,6 +14,8 @@ public class Kitap
         this.sayfaSayisi = sayfaSayisi;
     }
 
+    public Kitap(){}
+
     public String getAd() {
         return ad;
     }
