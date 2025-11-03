@@ -1,13 +1,11 @@
-
-
 public class SongNode 
 {
     private String title;
     private String artist;
     private double duration;
-    private SongNode next;
+    SongNode next;
 
-    public SongNode(String title, String artist, double duration) 
+    public SongNode(String title, String artist, double duration, SongNode next) 
     {
         this.title = title;
         this.artist = artist;
@@ -47,7 +45,5 @@ public class SongNode
     public void setNext(SongNode next) {
         this.next = next;
     }
-
-    
-    
+   
 }

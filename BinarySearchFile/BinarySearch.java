@@ -1,3 +1,5 @@
+package BinarySearchFile;
+
 public class BinarySearch {
     public static void main(String[] args) {
         int[] myList = {87, 21, 45, 93};
