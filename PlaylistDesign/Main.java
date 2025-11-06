@@ -2,6 +2,7 @@
 // Programın başlangıç noktası. Playlist sınıfını test eder.
 
 public class Main {
+
     public static void main(String[] args) {
         Playlist p1 = new Playlist();
 
@@ -9,6 +10,7 @@ public class Main {
         p1.addSong("Bohemian Rhapsody", "Queen", 6.0);
         p1.addSong("Imagine", "John Lennon", 3.1);
         p1.addSong("Unforgiven", "Metallica", 6.24);
+        p1.addSong("Sad But True", "Metallica", 5.28);
 
         // Listeyi göster
         p1.showPlaylist();
