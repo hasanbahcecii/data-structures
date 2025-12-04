@@ -3,21 +3,33 @@ package Queue;
 public class Main {
 
     public static void main(String[] args) {
-        Queue k1 = new Queue(5);
+
+        // Static queue example 
+        StaticQueue k1 = new StaticQueue(10);
 
         k1.Enqueue('a');
         k1.Enqueue('b');
         k1.Enqueue('c');
+        k1.Enqueue('d');
+        k1.Enqueue('e');
+        k1.Enqueue('f');
 
-        System.out.println(k1.Dequeue());
+        System.out.println("Cikarilan eleman: " + k1.Dequeue());
+        k1.printQueue();
+        k1.Peek();
 
-        Queue k2 = new Queue(5);
+        // Dynamic queue example 
+        DynamicQueue k2 = new DynamicQueue();
 
-        k1.Enqueue('1');
-        k1.Enqueue('2');
-        k1.Enqueue('3');
+        k2.Enqueue('a');
+        k2.Enqueue('b');
+        k2.Enqueue('c');
+        k2.Enqueue('d');
+        k2.Enqueue('e');
+        k2.Enqueue('f');
 
-        System.out.println(k2.Dequeue());
-
+        System.out.println("Cikarilan eleman: " + k2.Dequeue());
+        k2.printQueue();
+        k2.Peek();
     }
 }
