@@ -33,14 +33,28 @@ public class SinglyLinkedList {
 
     }
 
+    public void addBefore(int value) {
 
-    public void addBefore(int value)
-    {
-        
     }
 
-    public void addAfter(int value)
-    {
+    public void addAfter(int targetValue, int value) {
+        SinglyLinkedListNode newNode = new SinglyLinkedListNode(value, null);
+        current = head;
+
+        if (head == null) {
+            throw new IllegalArgumentException("List is empty!");
+        }
+
+        while (current != null) {
+            if (current.value == targetValue) {
+                newNode.setNext(current.getNext());
+                current.setNext(newNode);
+                return;
+            }
+
+            current = current.getNext();
+        }
+        throw new IllegalArgumentException("Value " + targetValue + " not found in the list!");
 
     }
 
