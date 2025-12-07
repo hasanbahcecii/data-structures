@@ -6,7 +6,7 @@ public class Merge {
 
         if(left < right)
         {
-        int mid = left + (right -1 ) / 2;            
+        //int mid = left + (right -1 ) / 2;            
         }
 
 
