@@ -6,49 +6,49 @@ This repository contains educational implementations of fundamental data structu
 ## 📂 Folder Structure
 - Binary Search
 
-- - Classic binary search algorithm example
+  - Classic binary search algorithm example
 
 - Binary Search Tree (BST)
 
-- - BST creation, insertion, deletion, and traversal
+  - BST creation, insertion, deletion, and traversal
 
 Linked List
 
-- - Singly linked list implementation
+  - Singly linked list implementation
 
 - OOP Basics
 
-- - Object-Oriented Programming fundamentals (classes, inheritance, polymorphism)
+  - Object-Oriented Programming fundamentals (classes, inheritance, polymorphism)
 
 - Sorts
 
-- - Sorting algorithms:
+  - Sorting algorithms:
 
-- - - Bubble Sort
+    - Bubble Sort
 
-- - - Insertion Sort
+    - Insertion Sort
 
-- - - Merge Sort
+    - Merge Sort
 
-- - - Quick Sort
+    - Quick Sort
 
-- - - Selection Sort
+    - Selection Sort
 
 - Stack
 
-- - Stack data structure implementation
+  - Stack data structure implementation
 
 - Playlist Design (Linked List)
 
-- - Playlist design using linked list
+  - Playlist design using linked list
 
 - Queue
 
-- - Queue data structure examples
+  - Queue data structure examples
 
 - Searching
 
-- - AVL & BST
+  - AVL & BST
 
 ---
 
