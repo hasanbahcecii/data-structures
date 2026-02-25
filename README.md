@@ -14,7 +14,7 @@ This repository contains educational implementations of fundamental data structu
 
 Linked List
 
-  - Singly linked list implementation
+  - Singly & Doubly linked list implementation
 
 - OOP Basics
 
